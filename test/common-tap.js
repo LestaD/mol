@@ -29,7 +29,7 @@ process.env.random_env_var = 'foo'
 // suppress warnings about using a prerelease version of node
 process.env.npm_config_node_version = process.version.replace(/-.*$/, '')
 
-var bin = exports.bin = require.resolve('../bin/npm-cli.js')
+var bin = exports.bin = require.resolve('../bin/mol-cli.js')
 
 var chain = require('slide').chain
 var once = require('once')

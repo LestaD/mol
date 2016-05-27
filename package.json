@@ -1,25 +1,25 @@
 {
-  "version": "3.9.4",
-  "name": "npm",
-  "description": "a package manager for JavaScript",
+  "version": "0.1.0",
+  "name": "mol",
+  "description": "a package manager for Electron",
   "keywords": [
     "install",
     "modules",
     "package manager",
-    "package.json"
+    "electron"
   ],
   "preferGlobal": true,
   "config": {
     "publishtest": false
   },
-  "homepage": "https://docs.npmjs.com/",
-  "author": "Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me)",
+  "homepage": "https://github.com/LestaD/mol",
+  "author": "Sergey Sova <i.am@lestad.net> (https://lestad.top)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/npm/npm"
+    "url": "https://github.com/LestaD/mol"
   },
   "bugs": {
-    "url": "https://github.com/npm/npm/issues"
+    "url": "https://github.com/LestaD/mol/issues"
   },
   "directories": {
     "bin": "./bin",
@@ -27,8 +27,8 @@
     "lib": "./lib",
     "man": "./man"
   },
-  "main": "./lib/npm.js",
-  "bin": "./bin/npm-cli.js",
+  "main": "./lib/mol.js",
+  "bin": "./bin/mol-cli.js",
   "dependencies": {
     "abbrev": "~1.0.7",
     "ansicolors": "~0.3.2",
